@@ -20,9 +20,7 @@ function App() {
     <div className="App">
 
     <Router>
-      <Route exact path="/my-portfolio">
-            <Redirect to="/my-portfolio/Home" />
-      </Route>
+      <Redirect to="/my-portfolio/Home" />
       <NavBar/>
 			<Switch>
 				<Route path = "/my-portfolio/Home" component = {Home}> <Home/> </Route>

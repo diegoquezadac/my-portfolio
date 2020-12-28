@@ -20,7 +20,7 @@ function App() {
     <div className="App">
 
     <Router>
-      <Route exact path="/">
+      <Route exact path="/my-portfolio">
             <Redirect to="/my-portfolio/Home" />
       </Route>
       <NavBar/>

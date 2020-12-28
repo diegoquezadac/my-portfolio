@@ -7,7 +7,7 @@ function NavBar() {
 
 
 <Navbar collapseOnSelect expand="lg" bg="dark" variant="dark">
-  <Navbar.Brand href="#home"> Diego Quezada</Navbar.Brand>
+  <Navbar.Brand> Diego Quezada</Navbar.Brand>
   <Navbar.Toggle aria-controls="responsive-navbar-nav" />
   <Navbar.Collapse id="responsive-navbar-nav">
     <Nav className="mr-auto">

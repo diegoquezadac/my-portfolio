@@ -11,22 +11,22 @@ function NavBar() {
   <Navbar.Toggle aria-controls="responsive-navbar-nav" />
   <Navbar.Collapse id="responsive-navbar-nav">
     <Nav className="mr-auto">
-        <Link to = "/Home">
+        <Link to = "/my-portfolio/Home">
             <Nav.Link href="#home">Home</Nav.Link>
         </Link>
-        <Link to = "/Resume">
+        <Link to = "/my-portfolio/Resume">
             <Nav.Link href="#resume">Resume</Nav.Link>
         </Link>
-        <Link to = "/Projects">
+        <Link to = "/my-portfolio/Projects">
             <Nav.Link href="#projects">Projects</Nav.Link>
         </Link>
     </Nav>
 
     <Nav>
-        <Link to = "/AboutMe">
+        <Link to = "/my-portfolio/AboutMe">
             <Nav.Link href="#aboutme">About me </Nav.Link>
         </Link>
-        <Link to = "/Contact">
+        <Link to = "/my-portfolio/Contact">
             <Nav.Link href="#contact">Contact</Nav.Link>
         </Link>
     </Nav>

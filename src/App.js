@@ -21,23 +21,23 @@ function App() {
 
     <Router>
       <Route exact path="/">
-    			<Redirect to="/Home" />
-			</Route>
+            <Redirect to="/my-portfolio/Home" />
+      </Route>
       <NavBar/>
 			<Switch>
-				<Route path = "/Home" component = {Home}> <Home/> </Route>
+				<Route path = "/my-portfolio/Home" component = {Home}> <Home/> </Route>
 			</Switch>
       <Switch>
-				<Route path = "/Resume" component = {Resume}> <Resume/> </Route>
+				<Route path = "/my-portfolio/Resume" component = {Resume}> <Resume/> </Route>
 			</Switch>
       <Switch>
-				<Route path = "/Projects" component = {Projects}> <Projects/> </Route>
+				<Route path = "/my-portfolio/Projects" component = {Projects}> <Projects/> </Route>
 			</Switch>
       <Switch>
-				<Route path = "/AboutMe" component = {AboutMe}> <AboutMe/> </Route>
+				<Route path = "/my-portfolio/AboutMe" component = {AboutMe}> <AboutMe/> </Route>
 			</Switch>
       <Switch>
-				<Route path = "/Contact" component = {Contact}> <Contact/> </Route>
+				<Route path = "/my-portfolio/Contact" component = {Contact}> <Contact/> </Route>
 			</Switch>
 		</Router>
 
